@@ -2,7 +2,7 @@
 
 # Device
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/Pranav-Talmale/android_device_xiaomi_raphael-twrp.git -b test3"
+export DT_LINK="https://github.com/Pranav-Talmale/android_device_xiaomi_raphael-twrp.git -b test2"
 
 export DEVICE="raphael"
 export OEM="xiaomi"
