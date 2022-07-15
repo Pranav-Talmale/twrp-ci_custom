@@ -2,11 +2,11 @@
 
 # Device
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/Pranav-Talmale/android_device_xiaomi_raphael-twrp.git -b test2"
+export DT_LINK="https://github.com/Pranav-Talmale/device_xiaomi_laurel_sprout-recovery.git -b 12.1"
 
-export DEVICE="raphael"
+export DEVICE="laurel_sprout"
 export OEM="xiaomi"
-export TARGET="recoveryimage"
+export TARGET="bootimage"
 
 export OUTPUT="output.zip"
 
