@@ -14,7 +14,7 @@ cd $SYNC_PATH
 repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b $TWRP_BRANCH  || { echo "ERROR: Failed to Sync TWRP Sources!" && exit 1; }
 
 #Clone TWRP source
-repo sync
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 #Clone required patches for twrp-12.1
 if [ "$TWRP_BRANCH" = "twrp-12.1" ]; then
