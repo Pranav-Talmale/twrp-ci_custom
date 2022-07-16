@@ -21,7 +21,7 @@ if [ "$TWRP_BRANCH" = "twrp-12.1" ]; then
     echo "Cloning custom repos for twrp to build..."
     cd $SYNC_PATH/bootable
 	 rm -rf recovery
-	  git clone https://github.com/Pranav-Talmale/twrp_android_bootable_recovery.git -b test recovery
+	  git clone https://github.com/Pranav-Talmale/twrp_android_bootable_recovery.git -b android-12.1 recovery
 
     cd $SYNC_PATH/system/vold
     echo "Cloning LibVold Patch...."	
