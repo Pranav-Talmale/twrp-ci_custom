@@ -2,10 +2,10 @@
 
 # Device
 export TWRP_BRANCH="twrp-12.1"
-export DT_LINK="https://github.com/Pranav-Talmale/device_xiaomi_laurel_sprout-recovery.git -b 12.1"
+export DT_LINK="https://github.com/Pranav-Talmale/NB1-test -b 12.1-NB1"
 
-export DEVICE="laurel_sprout"
-export OEM="xiaomi"
+export DEVICE="NB1"
+export OEM="nokia"
 export TARGET="bootimage"
 
 export OUTPUT="output.zip"
